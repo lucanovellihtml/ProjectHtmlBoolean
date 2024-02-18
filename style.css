@@ -1,0 +1,104 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ---------------------------------------------------------------------- */
+
+
+
+/* ----------- BOX ZERO -----------*/
+.box0{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 999999;
+    top: 20px;
+}
+
+.box0_1{
+    width: 60%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box0_1_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box0_1_1 img{
+    width: 30%;
+}
+
+span{
+    font-family: 'Poppins';
+}
+
+.box0_1_1 span{
+    color: rgb(47, 255, 64);
+    font-size: 30px;
+}
+
+.box0_1_1_1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(47, 255, 64);
+    width: 100%;
+    text-align: center;
+}
+
+.box0_1_1_2{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box0_1_1_2_1{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    color: white;
+    font-size: 25px;
+}
+
+label{
+    font-family: 'Poppins';
+}
+
+.box0_1_1_2_1 span{
+    color: white;
+    font-size: 15px;
+}
+
+.box0_1_1_2_1_1{
+    height: 20px;
+    border-radius: 4px;
+}
+
+#box_caricamento1{
+    background-color: orange;
+    width: 250px;
+}
+
+#box_caricamento2{
+    background-color: greenyellow;
+    width: 400px;
+}
+
+#box_caricamento3{
+    background-color: red;
+    width: 150px;
+}
